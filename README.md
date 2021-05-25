@@ -47,3 +47,8 @@ Project is created with:
 
 ## License
 This project is licensed under the MIT license.
+
+## Questions
+[E-mail](mailto:sttepstutoring@yahoo.com)
+
+E-mailing me is the best option
