@@ -28,3 +28,14 @@ To help promote a user reaching their fitness goals more quickly. Users will be 
 
 ## Link to deployed application:
 [Workout Tracker](https://.herokuapp.com)
+
+## Technologies
+Project is created with:
+
+* CSS 
+* Javascript
+* HTML
+* Express.js
+* Mongoose
+* MongoDB
+* Morgan
