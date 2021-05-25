@@ -20,6 +20,7 @@ An App that allows users to keep track of their workout progress.
 * [Challenges](#Challenges)
 * [License](#license)
 * [Possible-future-add-ons](#possible-future-add-ons)
+* [Questions](#questions)
 
 ## Project's aim
 To help promote a user reaching their fitness goals more quickly. Users will be able to VIEW, CREATE, and TRACK their daily workouts. They will have the ability to LOG multiple exercises in A workout on a GIVEN DAY. When adding a new exercise, they have the choice to add it to a RECENT or NEW workout plan. Users can VIEW combined WEIGHT from multiple exercises and/or the TOTAL DURATION of each workout from the last 7 workouts.
