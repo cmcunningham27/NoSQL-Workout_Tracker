@@ -44,3 +44,6 @@ Project is created with:
 * [Cassandra-Cunningham](https://github.com/cmcunningham27)
 
 ## Challenges
+
+## License
+This project is licensed under the MIT license.
