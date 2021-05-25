@@ -3,3 +3,7 @@
 
 ## Description:
 An App that allows users to keep track of their workout progress.
+![ Screenshot](./public/images/)
+![ Screenshot](./public/images/)
+![ Screenshot](./public/images/)
+![ Screenshot](./public/images/)
