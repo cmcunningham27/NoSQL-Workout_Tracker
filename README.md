@@ -49,6 +49,8 @@ Project is created with:
 ## License
 This project is licensed under the MIT license.
 
+## Possible future add-ons
+
 ## Questions
 [E-mail](mailto:sttepstutoring@yahoo.com)
 
