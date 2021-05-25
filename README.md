@@ -39,3 +39,6 @@ Project is created with:
 * Mongoose
 * MongoDB
 * Morgan
+
+## Contributors:
+* [Cassandra-Cunningham](https://github.com/cmcunningham27)
