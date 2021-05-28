@@ -28,6 +28,9 @@ const workoutsSchema = new Schema({
             },
             reps: {
                 type: Number
+            },
+            sets: {
+                type: Number
             }
         }
     ]
