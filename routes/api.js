@@ -12,8 +12,18 @@ router.get('/api/workouts', (req, res) => {
     });
 });
 
-router.post('api/workouts', ({body}, res) => {
+router.post('/api/workouts', ({body}, res) => {
     Workouts.create(body)
+    .then(dbWorkouts => {
+        res.json(dbWorkouts);
+    })
+    .catch(err => {
+        res.status(400).json(err);
+    });
+});
+
+router.put('/api/workouts/:id', ({body}, res) => {
+    Workouts.findOneAndUpdate({ _id: req.params.id }, body)
     .then(dbWorkouts => {
         res.json(dbWorkouts);
     })
