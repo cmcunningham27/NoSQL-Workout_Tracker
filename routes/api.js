@@ -22,10 +22,13 @@ router.post('/api/workouts', ({body}, res) => {
     });
 });
 
-router.put('/api/workouts/:id', ({body}, res) => {
-    Workouts.findOneAndUpdate({ _id: req.params.id }, body)
+router.put('/api/workouts/:id', (req, res) => {
+    console.log(req.body);
+    console.log(req.params.id);
+    Workouts.findOneAndUpdate({ _id: req.params.id }, req.body)
     .then(dbWorkouts => {
         res.json(dbWorkouts);
+        console.log(dbWorkouts);
     })
     .catch(err => {
         res.status(400).json(err);
