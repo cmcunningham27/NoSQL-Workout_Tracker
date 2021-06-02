@@ -45,6 +45,7 @@ Project is created with:
 * [Cassandra-Cunningham](https://github.com/cmcunningham27)
 
 ## Challenges
+- I noticed that when a user has not created any workouts yet, the Create Your First Workout div did not appear. I added a querySelector with style.display to equal block and that fixed the error. Don't want to change much more of the given code, so it's not as pretty as I would normally have it. But, the error is corrected.
 
 ## License
 This project is licensed under the MIT license.
