@@ -79,6 +79,7 @@ async function initWorkout() {
   
     p.appendChild(strong);
     container.appendChild(p);
+    document.querySelector(".new-workout").style.display = "block";
   }
   
   initWorkout();
