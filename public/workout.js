@@ -79,6 +79,7 @@ async function initWorkout() {
   
     p.appendChild(strong);
     container.appendChild(p);
+    //added this to code personally to display a div when no data is in database
     document.querySelector(".new-workout").style.display = "block";
   }
   
