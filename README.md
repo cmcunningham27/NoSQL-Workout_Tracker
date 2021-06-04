@@ -46,6 +46,7 @@ Project is created with:
 
 ## Challenges
 - I noticed that when a user has not created any workouts yet, the Create Your First Workout div did not appear. I added a querySelector with style.display to equal block and that fixed the error. Don't want to change much more of the given code, so it's not as pretty as I would normally have it. But, the error is corrected.
+- There were a few errors I was running into when it came to the code we were given before starting to add our own code to the Homework. Periodically they were fixed. I had to change some code in the seed.js file because the code I was given was not collecting the data correctly.
 
 ## License
 This project is licensed under the MIT license.
