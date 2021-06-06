@@ -3,10 +3,11 @@
 
 ## Description:
 An App that allows users to keep track of their workout progress.
-![First Workout Homescreen Screenshot](./public/images/homepage_firstWorkout.png)
+![First Workout Homepage Screenshot](./public/images/homepage_firstWorkout.png)
 ![First Exercise Screenshot](./public/images/first_exercise.png)
 ![Resistance Form Screenshot](./public/images/resistance_form.png)
-![ Screenshot](./public/images/)
+![Dashboard Screenshot](./public/images/dashboard.png)
+![Last Workout Homepage Screenshot](./public/images/homepage_last_workout)
 
 ## Repository
 [Application Repository URL](https://github.com/cmcunningham27/NoSQL-Workout_Tracker)
@@ -49,6 +50,7 @@ Project is created with:
 - There were a few errors I was running into when it came to the code we were given before starting to add our own code to the Homework. Periodically they were fixed. I had to change some code in the seed.js file because the code I was given was not collecting the data correctly. In the stats.js file, on line 204, needed to simplify it away from Set and just have it say return workouts for it to work correctly in the stats.html file.
 - I really struggled with figuring out how to use aggregate in order to get the totalDuration in the api get requests. After much searching, a fellow coder had informed me that the aggregate goes in place of the .find(). I did this and it still was not working for me. However, after some time I realized it was because I was missing the "s" at the end of $addFields. Once this was changed everything worked accordingly.
 - I left morgan in the package.json as it was given to us to be included. However, I do not understand why it is there when I did not have to use it to accomplish all of the criteria that needed to be met.
+- Heroku and MongoDB Atlas proved to be difficult when it came to functionality on the deployed app. Everything worked correctly locally. However, I had to change from using "Atlas Admin" to "Read and Write" in Atlas when creating a database Username and Password. This worked, but I found, after some time, that if you switch it back you need to use a different password or it wouldn't work again. Who knew it would be so touchy when it comes to passwords and switching options. None-the-less I got it figured out!
 
 ## License
 This project is licensed under the MIT license.
