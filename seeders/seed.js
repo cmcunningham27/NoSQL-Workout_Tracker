@@ -106,6 +106,14 @@ let workoutSeed = [
         weight: 300,
         reps: 10,
         sets: 4
+      },
+      {
+        type: "resistance",
+        name: "Push Press",
+        duration: 25,
+        weight: 185,
+        reps: 8,
+        sets: 4
       }
     ]
   },
