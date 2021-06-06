@@ -7,7 +7,7 @@ An App that allows users to keep track of their workout progress.
 ![First Exercise Screenshot](./public/images/first_exercise.png)
 ![Resistance Form Screenshot](./public/images/resistance_form.png)
 ![Dashboard Screenshot](./public/images/dashboard.png)
-![Last Workout Homepage Screenshot](./public/images/homepage_last_workout)
+![Last Workout Homepage Screenshot](./public/images/homepage_last_workout.png)
 
 ## Repository
 [Application Repository URL](https://github.com/cmcunningham27/NoSQL-Workout_Tracker)
