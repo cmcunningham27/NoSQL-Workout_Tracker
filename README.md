@@ -3,9 +3,9 @@
 
 ## Description:
 An App that allows users to keep track of their workout progress.
-![ Screenshot](./public/images/)
-![ Screenshot](./public/images/)
-![ Screenshot](./public/images/)
+![First Workout Homescreen Screenshot](./public/images/homepage_firstWorkout.png)
+![First Exercise Screenshot](./public/images/first_exercise.png)
+![Resistance Form Screenshot](./public/images/resistance_form.png)
 ![ Screenshot](./public/images/)
 
 ## Repository
