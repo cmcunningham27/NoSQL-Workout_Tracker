@@ -1,12 +1,12 @@
 const router = require('express').Router();
 const path = require('path');
 
-//html get request to render the stats page for clients to access
+//retrieves and sends client-side html for Dashboard page
 router.get('/stats', (req, res) => {
     res.sendFile(path.join(__dirname, '../public/stats.html'))
 });
 
-//html get request to render the exercise page for clients to access
+//retrieves and sends client-side html for exercise page
 router.get('/exercise', (req, res) => {
     res.sendFile(path.join(__dirname, '../public/exercise.html'))
 });
