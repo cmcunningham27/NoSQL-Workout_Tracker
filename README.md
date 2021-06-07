@@ -20,7 +20,6 @@ An App that allows users to keep track of their workout progress.
 * [Contributors](#contributors)
 * [Challenges](#Challenges)
 * [License](#license)
-* [Possible-future-add-ons](#possible-future-add-ons)
 * [Questions](#questions)
 
 ## Project's aim
@@ -55,8 +54,6 @@ Project is created with:
 
 ## License
 This project is licensed under the MIT license.
-
-## Possible future add-ons
 
 ## Questions
 [E-mail](mailto:sttepstutoring@yahoo.com)
