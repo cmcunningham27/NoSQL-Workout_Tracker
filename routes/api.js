@@ -1,7 +1,7 @@
 const router = require('express').Router();
 const Workouts = require('../models/workouts');
 
-//collects all workouts from database
+//collects all workouts from database and totalDuration of exercises
 router.get('/api/workouts', (req, res) => {
     Workouts.aggregate([{ $addFields: {totalDuration: { $sum: '$exercises.duration' }}}])
     .then(dbWorkouts => {
@@ -12,6 +12,7 @@ router.get('/api/workouts', (req, res) => {
     });
 });
 
+//creates a new workout in the database
 router.post('/api/workouts', ({body}, res) => {
     Workouts.create(body)
     .then(dbWorkouts => {
@@ -22,6 +23,7 @@ router.post('/api/workouts', ({body}, res) => {
     });
 });
 
+//adds exercises to a specific workout based on its id
 router.put('/api/workouts/:id', (req, res) => {
     console.log(req.body);
     console.log(req.params.id);
@@ -35,8 +37,7 @@ router.put('/api/workouts/:id', (req, res) => {
     });
 });
 
-// 
-//.slice('day', -7)
+//retrieves workouts and totalDuration from the last 7 workouts, renders the weekdays backwards
 router.get('/api/workouts/range', (req, res) => {
     Workouts.aggregate([{ $addFields: {totalDuration: { $sum: '$exercises.duration' }}}]).sort({ day: -1 }).limit(7)
     .then(dbWorkouts => {
@@ -48,5 +49,5 @@ router.get('/api/workouts/range', (req, res) => {
     });
 });
 
-
+//exports route requests for other modules to utilize
 module.exports = router;
